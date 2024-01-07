@@ -22,7 +22,7 @@
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "python3 -m venv .venv && source .venv/bin/activate && pip3 install --user -r requirements.txt"
+	"postCreateCommand": "python3 -m venv venv && source venv/bin/activate && pip3 install --user -r requirements.txt"
 
 	// Configure tool-specific properties.
 	// "customizations": {},
